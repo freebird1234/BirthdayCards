@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap');
+body {
+   margin: 0;
+    /*background:#F6CF57;*/
+    cursor: crosshair;
+    background-color: #fcf0e4;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),url("birthdaycat.gif");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    max-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:100vh;  /* responsive height */ 
+
+  }
+  
+  #main {
+    font-family: 'Noto Serif', serif;
+    width: 60%;
+    min-height: 90vh;
+    max-width: 48rem;
+    padding: 2.4rem;
+    border-radius: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0.6rem 0.6rem 0.6rem rgba(68, 68, 68, 0.2);
+    position: absolute;
+    top:10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+  }
+  
+  h1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#404040;
+    font-family: "Source Sans Pro";
+    font-size: 5vw;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  p{
+    margin: 1.8%;
+    position: relative;
+    top: 15%;
+    font-family: "Source Sans Pro";
+    font-size: calc(12px + 1.5vw);
+    font-weight: 700;
+    letter-spacing: 0.1vw;
+    -webkit-user-select: none;
+    user-select: none;
+    color: #612a3a;
+    text-shadow:
+        0.07em 0 whitesmoke,
+        0 0.07em whitesmoke,
+        -0.07em 0 whitesmoke,
+        0 -0.07em whitesmoke;
+  }
+
+  a{
+    position: relative;
+    top: 20%;
+  }
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+
+
+
